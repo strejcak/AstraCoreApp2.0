@@ -1,0 +1,9 @@
+POST http://localhost:5001/api/zakazky
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoibm92eXV6aXZhdGVsIiwiaWF0IjoxNzMxMDk1NTgyLCJleHAiOjE3MzEwOTkxODJ9.7ChdxpRpp2ux_ysl3uPYNJkTx_FPQF3jWOq6vkjxzs8
+
+{
+  "nazev": "Nová zakázka",
+  "popis": "Popis nové zakázky",
+  "cena": 10000
+}
